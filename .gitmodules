@@ -1,0 +1,12 @@
+[submodule "library/MDmisc"]
+	path = library/MDmisc
+	url = https://github.com/mdedonno1337/MDmisc.git
+[submodule "library/PMlib"]
+	path = library/PMlib
+	url = https://github.com/mdedonno1337/PMlib.git
+[submodule "library/WSQ"]
+	path = library/WSQ
+	url = https://github.com/mdedonno1337/WSQ.git
+[submodule "library/NIST"]
+	path = library/NIST
+	url = https://github.com/mdedonno1337/NIST.git
