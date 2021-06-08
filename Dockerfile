@@ -20,5 +20,9 @@ RUN find /library -maxdepth 1 -mindepth 1 > /usr/local/lib/python2.7/dist-packag
 RUN chmod +x /library/WSQ/WSQ/NBIS/cwsq && \
     chmod +x /library/WSQ/WSQ/NBIS/dwsq
 
-RUN find /library -name 'doctester.py' -execdir python {} \;
+WORKDIR /library/NIST
+RUN python doctester.py
+
+WORKDIR /library/MDmisc
+RUN python doctester.py
 
